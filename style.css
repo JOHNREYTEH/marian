@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, sans-serif;
+
+    background: #ffe6ef;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+
+    text-align: center;
+
+    padding: 30px 20px;
+}
+
+h1 {
+    color: #d82f70;
+    font-size: 38px;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+button {
+    border: none;
+    padding: 14px 35px;
+
+    font-size: 20px;
+    border-radius: 12px;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+#yesBtn {
+    background: #ff4fa0;
+    color: white;
+}
+
+#yesBtn:hover {
+    transform: scale(1.08);
+    background: #ff2f8d;
+}
+
+#noBtn {
+    background: #777;
+    color: white;
+}
+
+#message {
+    font-size: 22px;
+    color: #d82f70;
+    margin: 25px 0 20px;
+}
+
+/* BIG CENTER IMAGE */
+#yesImage {
+    display: block;
+
+    width: 500px;
+    max-width: 90vw;
+    height: auto;
+
+    margin: 20px auto 0;
+
+    border-radius: 18px;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}#yesImage {
+    display: none;
+    width: 500px;
+    max-width: 90%;
+    margin: 25px auto;
+    border-radius: 20px;
+}
+
+#yesImage.show {
+    display: block;
+}
+#noBtn {
+    background: #777;
+    color: white;
+    border: none;
+    padding: 14px 35px;
+    border-radius: 12px;
+    font-size: 20px;
+    cursor: pointer;
+    touch-action: none;
+}
